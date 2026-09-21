@@ -10,5 +10,6 @@
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 <a href="Exo1Servlet">Exercice 1</a>
+<a href="ApiKeyServlet">ApiKeyServlet</a>
 </body>
 </html>
