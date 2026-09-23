@@ -15,5 +15,6 @@
 <a href="admin/stats">Admin</a>
 <a href="ConnexionServlet?user=admin&pass=Secret123">Connexion Réussie</a>
 <a href="ConnexionServlet?user=admin&pass=Secret12">Connexion Ratée</a>
+<a href="LimiteurServlet">Limiteur</a>
 </body>
 </html>

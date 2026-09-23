@@ -1,0 +1,10 @@
+limiteur requetes api
+1. utiliser des annotations
+2. ajouter deux paramètres d'init :
+    -maxRequests : 5 (max)
+    - apiStatus : ACTIVE
+3. Logique de la Servlet :
+    - Si apiStatus n'est pas égal à ACTIVE -> Afficher API Indisponible
+    - incrémenter un compteur à chaque passage
+    - Si le compteur dépasse maxREquests -> BLoque l'accès avec un message Limite de reqûetes atteinte (max : 5)
+    - SInon : afficher données de l'API envoyées avec succès. Requête numéro x/5
