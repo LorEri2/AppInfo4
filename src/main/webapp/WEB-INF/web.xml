@@ -3,6 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
          version="6.0">
+    <context-param>
+        <param-name>dbConnectionString</param-name>
+        <param-value>jdbc:mysql//localhost:3030/mon_app</param-value>
+    </context-param>
     <servlet>
         <servlet-name>ApiKeyServlet</servlet-name>
         <servlet-class>be.condorcet.demo.ApiKeyServlet</servlet-class>
@@ -12,11 +16,17 @@
             <param-value>SECRET_KEY1</param-value>
         </init-param>
     </servlet>
+    <context-param>
+        <param-name>visitCount</param-name>
+        <param-value>0</param-value>
+    </context-param>
 
     <servlet-mapping>
         <servlet-name>ApiKeyServlet</servlet-name>
         <url-pattern>/test-api</url-pattern>
     </servlet-mapping>
+
+
 
 
 </web-app>
