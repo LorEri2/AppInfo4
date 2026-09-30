@@ -16,5 +16,7 @@
 <a href="ConnexionServlet?user=admin&pass=Secret123">Connexion Réussie</a>
 <a href="ConnexionServlet?user=admin&pass=Secret12">Connexion Ratée</a>
 <a href="LimiteurServlet">Limiteur</a>
+<a href="QueryStringSender.html">InfosGet</a>
+<a href="FormDataSender.html">InfosPost</a>
 </body>
 </html>
