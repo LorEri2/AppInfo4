@@ -18,5 +18,6 @@
 <a href="LimiteurServlet">Limiteur</a>
 <a href="QueryStringSender.html">InfosGet</a>
 <a href="FormDataSender.html">InfosPost</a>
+<a href="PokemonSelector.html">POKEMON</a>
 </body>
 </html>
