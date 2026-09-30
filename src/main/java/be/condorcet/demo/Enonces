@@ -1,10 +1,13 @@
-limiteur requetes api
-1. utiliser des annotations
-2. ajouter deux paramètres d'init :
-    -maxRequests : 5 (max)
-    - apiStatus : ACTIVE
-3. Logique de la Servlet :
-    - Si apiStatus n'est pas égal à ACTIVE -> Afficher API Indisponible
-    - incrémenter un compteur à chaque passage
-    - Si le compteur dépasse maxREquests -> BLoque l'accès avec un message Limite de reqûetes atteinte (max : 5)
-    - SInon : afficher données de l'API envoyées avec succès. Requête numéro x/5
+1. Choisir un seul pokemon
+2. Spécifier le niveau du pokemon sélectionné (max 100)
+3. Faire évoluer le pokemon (starter) si le user le décide
+
+Si coché:
+        niveau => 16 j'évolue
+                    Salamèche -> Reptincelle
+                    Carapuce -> Carabaffe
+                    Bulbizarre -> Herbizarre
+        niveau >= 36 j'évolue
+                    Reptincelle -> Dracofeu
+                    Carabaffe -> Tortank
+                    Herbizarre -> Florizzare

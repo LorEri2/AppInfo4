@@ -5,32 +5,41 @@
     <title>Choix de pokemon</title>
 </head>
 <body>
-<h2>Choisissez vos Pokémon</h2>
+<h2>Gestionnaire d'Évolution Pokémon</h2>
 
 <form action="PokemonReceiver" method="post">
+
+    <fieldset>
+        <legend>Choisissez un Pokémon de départ</legend>
+        <div>
+            <input type="radio" id="salameche" name="pokemon" value="Salamèche" required>
+            <label for="salameche">Salamèche</label>
+        </div>
+        <div>
+            <input type="radio" id="carapuce" name="pokemon" value="Carapuce">
+            <label for="carapuce">Carapuce</label>
+        </div>
+        <div>
+            <input type="radio" id="bulbizarre" name="pokemon" value="Bulbizarre">
+            <label for="bulbizarre">Bulbizarre</label>
+        </div>
+    </fieldset>
+
+    <br>
     <div>
-        <input type="checkbox" id="pikachu" name="pokemon" value="Pikachu">
-        <label for="pikachu">Pikachu</label>
-    </div>
-    <div>
-        <input type="checkbox" id="bulbizarre" name="pokemon" value="Bulbizarre">
-        <label for="bulbizarre">Bulbizarre</label>
-    </div>
-    <div>
-        <input type="checkbox" id="salameche" name="pokemon" value="Salamèche">
-        <label for="salameche">Salamèche</label>
-    </div>
-    <div>
-        <input type="checkbox" id="carapuce" name="pokemon" value="Carapuce">
-        <label for="carapuce">Carapuce</label>
-    </div>
-    <div>
-        <input type="checkbox" id="evoli" name="pokemon" value="Evoli">
-        <label for="evoli">Évoli</label>
+        <label for="level">Niveau (1 à 100) : </label>
+        <input type="number" id="level" name="level" min="1" max="100" value="1" required>
     </div>
 
     <br>
-    <button type="submit">Envoyer</button>
+
+    <div>
+        <input type="checkbox" id="evolve" name="evolve" value="yes">
+        <label for="evolve">Autoriser l'évolution</label>
+    </div>
+
+    <br>
+    <button type="submit">Valider</button>
 </form>
 </body>
 </html>
