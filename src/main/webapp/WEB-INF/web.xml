@@ -9,7 +9,7 @@
     </context-param>
     <servlet>
         <servlet-name>ApiKeyServlet</servlet-name>
-        <servlet-class>be.condorcet.demo.ApiKeyServlet</servlet-class>
+        <servlet-class>web.ApiKeyServlet</servlet-class>
 
         <init-param>
             <param-name>apiKey</param-name>

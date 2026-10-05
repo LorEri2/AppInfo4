@@ -1,4 +1,4 @@
-package be.condorcet.demo;
+package web;
 
 import java.io.*;
 

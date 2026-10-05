@@ -21,5 +21,6 @@
 <a href="PokemonSelector.html">POKEMON</a>
 <a href="ResponseSelector.html">Gestion des réponses</a>
 <a href="StatusHandler.html">UserID</a>
+<a href="CharacterServlet">Character</a>
 </body>
 </html>
