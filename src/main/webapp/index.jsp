@@ -19,5 +19,7 @@
 <a href="QueryStringSender.html">InfosGet</a>
 <a href="FormDataSender.html">InfosPost</a>
 <a href="PokemonSelector.html">POKEMON</a>
+<a href="ResponseSelector.html">Gestion des réponses</a>
+<a href="StatusHandler.html">UserID</a>
 </body>
 </html>
