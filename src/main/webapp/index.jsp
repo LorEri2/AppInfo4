@@ -23,5 +23,6 @@
 <a href="StatusHandler.html">UserID</a>
 <a href="CharacterServlet">Character</a>
 <a href="playlist">Playlist</a>
+<a href="quiz">Quiz</a>
 </body>
 </html>
