@@ -22,5 +22,6 @@
 <a href="ResponseSelector.html">Gestion des réponses</a>
 <a href="StatusHandler.html">UserID</a>
 <a href="CharacterServlet">Character</a>
+<a href="playlist">Playlist</a>
 </body>
 </html>
